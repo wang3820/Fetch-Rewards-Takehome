@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71595177298B71190001F5E4 /* Fetch_Rewards_Take_Home_AssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71595176298B71190001F5E4 /* Fetch_Rewards_Take_Home_AssignmentApp.swift */; };
+		71595179298B71190001F5E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71595178298B71190001F5E4 /* ContentView.swift */; };
+		7159517B298B711A0001F5E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7159517A298B711A0001F5E4 /* Assets.xcassets */; };
+		7159517E298B711A0001F5E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7159517D298B711A0001F5E4 /* Preview Assets.xcassets */; };
+		715951A1298B789B0001F5E4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715951A0298B789B0001F5E4 /* Item.swift */; };
+		715951A3298B7BD10001F5E4 /* NetworkingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715951A2298B7BD10001F5E4 /* NetworkingController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71595184298B711A0001F5E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7159516B298B71190001F5E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71595172298B71190001F5E4;
+			remoteInfo = "Fetch Rewards Take Home Assignment";
+		};
+		7159518E298B711A0001F5E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7159516B298B71190001F5E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71595172298B71190001F5E4;
+			remoteInfo = "Fetch Rewards Take Home Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71595173298B71190001F5E4 /* Fetch Rewards Take Home Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fetch Rewards Take Home Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71595176298B71190001F5E4 /* Fetch_Rewards_Take_Home_AssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_Rewards_Take_Home_AssignmentApp.swift; sourceTree = "<group>"; };
+		71595178298B71190001F5E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7159517A298B711A0001F5E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7159517D298B711A0001F5E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71595183298B711A0001F5E4 /* Fetch Rewards Take Home AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch Rewards Take Home AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7159518D298B711A0001F5E4 /* Fetch Rewards Take Home AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch Rewards Take Home AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		715951A0298B789B0001F5E4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		715951A2298B7BD10001F5E4 /* NetworkingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingController.swift; sourceTree = "<group>"; };
+		715951A4298BA1CA0001F5E4 /* Fetch-Rewards-Take-Home-Assignment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Fetch-Rewards-Take-Home-Assignment-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71595170298B71190001F5E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71595180298B711A0001F5E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7159518A298B711A0001F5E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7159516A298B71190001F5E4 = {
+			isa = PBXGroup;
+			children = (
+				71595175298B71190001F5E4 /* Fetch Rewards Take Home Assignment */,
+				71595174298B71190001F5E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71595174298B71190001F5E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71595173298B71190001F5E4 /* Fetch Rewards Take Home Assignment.app */,
+				71595183298B711A0001F5E4 /* Fetch Rewards Take Home AssignmentTests.xctest */,
+				7159518D298B711A0001F5E4 /* Fetch Rewards Take Home AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71595175298B71190001F5E4 /* Fetch Rewards Take Home Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				715951A4298BA1CA0001F5E4 /* Fetch-Rewards-Take-Home-Assignment-Info.plist */,
+				71595176298B71190001F5E4 /* Fetch_Rewards_Take_Home_AssignmentApp.swift */,
+				71595178298B71190001F5E4 /* ContentView.swift */,
+				715951A0298B789B0001F5E4 /* Item.swift */,
+				715951A2298B7BD10001F5E4 /* NetworkingController.swift */,
+				7159517A298B711A0001F5E4 /* Assets.xcassets */,
+				7159517C298B711A0001F5E4 /* Preview Content */,
+			);
+			path = "Fetch Rewards Take Home Assignment";
+			sourceTree = "<group>";
+		};
+		7159517C298B711A0001F5E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7159517D298B711A0001F5E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71595172298B71190001F5E4 /* Fetch Rewards Take Home Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71595197298B711A0001F5E4 /* Build configuration list for PBXNativeTarget "Fetch Rewards Take Home Assignment" */;
+			buildPhases = (
+				7159516F298B71190001F5E4 /* Sources */,
+				71595170298B71190001F5E4 /* Frameworks */,
+				71595171298B71190001F5E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fetch Rewards Take Home Assignment";
+			productName = "Fetch Rewards Take Home Assignment";
+			productReference = 71595173298B71190001F5E4 /* Fetch Rewards Take Home Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71595182298B711A0001F5E4 /* Fetch Rewards Take Home AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7159519A298B711A0001F5E4 /* Build configuration list for PBXNativeTarget "Fetch Rewards Take Home AssignmentTests" */;
+			buildPhases = (
+				7159517F298B711A0001F5E4 /* Sources */,
+				71595180298B711A0001F5E4 /* Frameworks */,
+				71595181298B711A0001F5E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71595185298B711A0001F5E4 /* PBXTargetDependency */,
+			);
+			name = "Fetch Rewards Take Home AssignmentTests";
+			productName = "Fetch Rewards Take Home AssignmentTests";
+			productReference = 71595183298B711A0001F5E4 /* Fetch Rewards Take Home AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7159518C298B711A0001F5E4 /* Fetch Rewards Take Home AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7159519D298B711A0001F5E4 /* Build configuration list for PBXNativeTarget "Fetch Rewards Take Home AssignmentUITests" */;
+			buildPhases = (
+				71595189298B711A0001F5E4 /* Sources */,
+				7159518A298B711A0001F5E4 /* Frameworks */,
+				7159518B298B711A0001F5E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7159518F298B711A0001F5E4 /* PBXTargetDependency */,
+			);
+			name = "Fetch Rewards Take Home AssignmentUITests";
+			productName = "Fetch Rewards Take Home AssignmentUITests";
+			productReference = 7159518D298B711A0001F5E4 /* Fetch Rewards Take Home AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7159516B298B71190001F5E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					71595172298B71190001F5E4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					71595182298B711A0001F5E4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 71595172298B71190001F5E4;
+					};
+					7159518C298B711A0001F5E4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 71595172298B71190001F5E4;
+					};
+				};
+			};
+			buildConfigurationList = 7159516E298B71190001F5E4 /* Build configuration list for PBXProject "Fetch Rewards Take Home Assignment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7159516A298B71190001F5E4;
+			productRefGroup = 71595174298B71190001F5E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71595172298B71190001F5E4 /* Fetch Rewards Take Home Assignment */,
+				71595182298B711A0001F5E4 /* Fetch Rewards Take Home AssignmentTests */,
+				7159518C298B711A0001F5E4 /* Fetch Rewards Take Home AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71595171298B71190001F5E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7159517E298B711A0001F5E4 /* Preview Assets.xcassets in Resources */,
+				7159517B298B711A0001F5E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71595181298B711A0001F5E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7159518B298B711A0001F5E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7159516F298B71190001F5E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71595179298B71190001F5E4 /* ContentView.swift in Sources */,
+				715951A3298B7BD10001F5E4 /* NetworkingController.swift in Sources */,
+				715951A1298B789B0001F5E4 /* Item.swift in Sources */,
+				71595177298B71190001F5E4 /* Fetch_Rewards_Take_Home_AssignmentApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7159517F298B711A0001F5E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71595189298B711A0001F5E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71595185298B711A0001F5E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71595172298B71190001F5E4 /* Fetch Rewards Take Home Assignment */;
+			targetProxy = 71595184298B711A0001F5E4 /* PBXContainerItemProxy */;
+		};
+		7159518F298B711A0001F5E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71595172298B71190001F5E4 /* Fetch Rewards Take Home Assignment */;
+			targetProxy = 7159518E298B711A0001F5E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		71595195298B711A0001F5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71595196298B711A0001F5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71595198298B711A0001F5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fetch Rewards Take Home Assignment/Preview Content\"";
+				DEVELOPMENT_TEAM = BWX3FHP57B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fetch-Rewards-Take-Home-Assignment-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tw.Fetch-Rewards-Take-Home-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71595199298B711A0001F5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fetch Rewards Take Home Assignment/Preview Content\"";
+				DEVELOPMENT_TEAM = BWX3FHP57B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fetch-Rewards-Take-Home-Assignment-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tw.Fetch-Rewards-Take-Home-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7159519B298B711A0001F5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BWX3FHP57B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tw.Fetch-Rewards-Take-Home-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetch Rewards Take Home Assignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fetch Rewards Take Home Assignment";
+			};
+			name = Debug;
+		};
+		7159519C298B711A0001F5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BWX3FHP57B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tw.Fetch-Rewards-Take-Home-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetch Rewards Take Home Assignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fetch Rewards Take Home Assignment";
+			};
+			name = Release;
+		};
+		7159519E298B711A0001F5E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BWX3FHP57B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tw.Fetch-Rewards-Take-Home-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fetch Rewards Take Home Assignment";
+			};
+			name = Debug;
+		};
+		7159519F298B711A0001F5E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BWX3FHP57B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tw.Fetch-Rewards-Take-Home-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fetch Rewards Take Home Assignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7159516E298B71190001F5E4 /* Build configuration list for PBXProject "Fetch Rewards Take Home Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71595195298B711A0001F5E4 /* Debug */,
+				71595196298B711A0001F5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71595197298B711A0001F5E4 /* Build configuration list for PBXNativeTarget "Fetch Rewards Take Home Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71595198298B711A0001F5E4 /* Debug */,
+				71595199298B711A0001F5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7159519A298B711A0001F5E4 /* Build configuration list for PBXNativeTarget "Fetch Rewards Take Home AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7159519B298B711A0001F5E4 /* Debug */,
+				7159519C298B711A0001F5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7159519D298B711A0001F5E4 /* Build configuration list for PBXNativeTarget "Fetch Rewards Take Home AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7159519E298B711A0001F5E4 /* Debug */,
+				7159519F298B711A0001F5E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7159516B298B71190001F5E4 /* Project object */;
+}
