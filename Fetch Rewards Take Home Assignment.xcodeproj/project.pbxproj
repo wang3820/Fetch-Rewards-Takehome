@@ -13,17 +13,14 @@
 		7159517E298B711A0001F5E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7159517D298B711A0001F5E4 /* Preview Assets.xcassets */; };
 		715951A1298B789B0001F5E4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715951A0298B789B0001F5E4 /* Item.swift */; };
 		715951A3298B7BD10001F5E4 /* NetworkingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715951A2298B7BD10001F5E4 /* NetworkingController.swift */; };
+		71B621D3298C55A000736A6B /* NetworkControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B621D2298C55A000736A6B /* NetworkControllerTests.swift */; };
+		71B621DA298C56B700736A6B /* NetworkingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715951A2298B7BD10001F5E4 /* NetworkingController.swift */; };
+		71B621DC298C594700736A6B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715951A0298B789B0001F5E4 /* Item.swift */; };
+		71B621DE298C5C0700736A6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71595178298B71190001F5E4 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		71595184298B711A0001F5E4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7159516B298B71190001F5E4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 71595172298B71190001F5E4;
-			remoteInfo = "Fetch Rewards Take Home Assignment";
-		};
-		7159518E298B711A0001F5E4 /* PBXContainerItemProxy */ = {
+		71B621D4298C55A000736A6B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7159516B298B71190001F5E4 /* Project object */;
 			proxyType = 1;
@@ -38,11 +35,11 @@
 		71595178298B71190001F5E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7159517A298B711A0001F5E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7159517D298B711A0001F5E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		71595183298B711A0001F5E4 /* Fetch Rewards Take Home AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch Rewards Take Home AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7159518D298B711A0001F5E4 /* Fetch Rewards Take Home AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch Rewards Take Home AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		715951A0298B789B0001F5E4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		715951A2298B7BD10001F5E4 /* NetworkingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingController.swift; sourceTree = "<group>"; };
 		715951A4298BA1CA0001F5E4 /* Fetch-Rewards-Take-Home-Assignment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Fetch-Rewards-Take-Home-Assignment-Info.plist"; sourceTree = SOURCE_ROOT; };
+		71B621D0298C55A000736A6B /* NetworkControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B621D2298C55A000736A6B /* NetworkControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +50,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71595180298B711A0001F5E4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7159518A298B711A0001F5E4 /* Frameworks */ = {
+		71B621CD298C55A000736A6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				71595175298B71190001F5E4 /* Fetch Rewards Take Home Assignment */,
+				71B621D1298C55A000736A6B /* NetworkControllerTests */,
 				71595174298B71190001F5E4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,8 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				71595173298B71190001F5E4 /* Fetch Rewards Take Home Assignment.app */,
-				71595183298B711A0001F5E4 /* Fetch Rewards Take Home AssignmentTests.xctest */,
-				7159518D298B711A0001F5E4 /* Fetch Rewards Take Home AssignmentUITests.xctest */,
+				71B621D0298C55A000736A6B /* NetworkControllerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,6 +100,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		71B621D1298C55A000736A6B /* NetworkControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				71B621D2298C55A000736A6B /* NetworkControllerTests.swift */,
+			);
+			path = NetworkControllerTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -130,41 +128,23 @@
 			productReference = 71595173298B71190001F5E4 /* Fetch Rewards Take Home Assignment.app */;
 			productType = "com.apple.product-type.application";
 		};
-		71595182298B711A0001F5E4 /* Fetch Rewards Take Home AssignmentTests */ = {
+		71B621CF298C55A000736A6B /* NetworkControllerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7159519A298B711A0001F5E4 /* Build configuration list for PBXNativeTarget "Fetch Rewards Take Home AssignmentTests" */;
+			buildConfigurationList = 71B621D8298C55A000736A6B /* Build configuration list for PBXNativeTarget "NetworkControllerTests" */;
 			buildPhases = (
-				7159517F298B711A0001F5E4 /* Sources */,
-				71595180298B711A0001F5E4 /* Frameworks */,
-				71595181298B711A0001F5E4 /* Resources */,
+				71B621CC298C55A000736A6B /* Sources */,
+				71B621CD298C55A000736A6B /* Frameworks */,
+				71B621CE298C55A000736A6B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				71595185298B711A0001F5E4 /* PBXTargetDependency */,
+				71B621D5298C55A000736A6B /* PBXTargetDependency */,
 			);
-			name = "Fetch Rewards Take Home AssignmentTests";
-			productName = "Fetch Rewards Take Home AssignmentTests";
-			productReference = 71595183298B711A0001F5E4 /* Fetch Rewards Take Home AssignmentTests.xctest */;
+			name = NetworkControllerTests;
+			productName = NetworkControllerTests;
+			productReference = 71B621D0298C55A000736A6B /* NetworkControllerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7159518C298B711A0001F5E4 /* Fetch Rewards Take Home AssignmentUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7159519D298B711A0001F5E4 /* Build configuration list for PBXNativeTarget "Fetch Rewards Take Home AssignmentUITests" */;
-			buildPhases = (
-				71595189298B711A0001F5E4 /* Sources */,
-				7159518A298B711A0001F5E4 /* Frameworks */,
-				7159518B298B711A0001F5E4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7159518F298B711A0001F5E4 /* PBXTargetDependency */,
-			);
-			name = "Fetch Rewards Take Home AssignmentUITests";
-			productName = "Fetch Rewards Take Home AssignmentUITests";
-			productReference = 7159518D298B711A0001F5E4 /* Fetch Rewards Take Home AssignmentUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -179,11 +159,7 @@
 					71595172298B71190001F5E4 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					71595182298B711A0001F5E4 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 71595172298B71190001F5E4;
-					};
-					7159518C298B711A0001F5E4 = {
+					71B621CF298C55A000736A6B = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 71595172298B71190001F5E4;
 					};
@@ -203,8 +179,7 @@
 			projectRoot = "";
 			targets = (
 				71595172298B71190001F5E4 /* Fetch Rewards Take Home Assignment */,
-				71595182298B711A0001F5E4 /* Fetch Rewards Take Home AssignmentTests */,
-				7159518C298B711A0001F5E4 /* Fetch Rewards Take Home AssignmentUITests */,
+				71B621CF298C55A000736A6B /* NetworkControllerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,14 +194,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71595181298B711A0001F5E4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7159518B298B711A0001F5E4 /* Resources */ = {
+		71B621CE298C55A000736A6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -247,32 +215,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7159517F298B711A0001F5E4 /* Sources */ = {
+		71B621CC298C55A000736A6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71595189298B711A0001F5E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				71B621D3298C55A000736A6B /* NetworkControllerTests.swift in Sources */,
+				71B621DC298C594700736A6B /* Item.swift in Sources */,
+				71B621DE298C5C0700736A6B /* ContentView.swift in Sources */,
+				71B621DA298C56B700736A6B /* NetworkingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		71595185298B711A0001F5E4 /* PBXTargetDependency */ = {
+		71B621D5298C55A000736A6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 71595172298B71190001F5E4 /* Fetch Rewards Take Home Assignment */;
-			targetProxy = 71595184298B711A0001F5E4 /* PBXContainerItemProxy */;
-		};
-		7159518F298B711A0001F5E4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 71595172298B71190001F5E4 /* Fetch Rewards Take Home Assignment */;
-			targetProxy = 7159518E298B711A0001F5E4 /* PBXContainerItemProxy */;
+			targetProxy = 71B621D4298C55A000736A6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -449,18 +409,16 @@
 			};
 			name = Release;
 		};
-		7159519B298B711A0001F5E4 /* Debug */ = {
+		71B621D6298C55A000736A6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BWX3FHP57B;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tw.Fetch-Rewards-Take-Home-AssignmentTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tw.NetworkControllerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -469,59 +427,21 @@
 			};
 			name = Debug;
 		};
-		7159519C298B711A0001F5E4 /* Release */ = {
+		71B621D7298C55A000736A6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BWX3FHP57B;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tw.Fetch-Rewards-Take-Home-AssignmentTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tw.NetworkControllerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetch Rewards Take Home Assignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fetch Rewards Take Home Assignment";
-			};
-			name = Release;
-		};
-		7159519E298B711A0001F5E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BWX3FHP57B;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tw.Fetch-Rewards-Take-Home-AssignmentUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Fetch Rewards Take Home Assignment";
-			};
-			name = Debug;
-		};
-		7159519F298B711A0001F5E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BWX3FHP57B;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tw.Fetch-Rewards-Take-Home-AssignmentUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Fetch Rewards Take Home Assignment";
 			};
 			name = Release;
 		};
@@ -546,20 +466,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7159519A298B711A0001F5E4 /* Build configuration list for PBXNativeTarget "Fetch Rewards Take Home AssignmentTests" */ = {
+		71B621D8298C55A000736A6B /* Build configuration list for PBXNativeTarget "NetworkControllerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7159519B298B711A0001F5E4 /* Debug */,
-				7159519C298B711A0001F5E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7159519D298B711A0001F5E4 /* Build configuration list for PBXNativeTarget "Fetch Rewards Take Home AssignmentUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7159519E298B711A0001F5E4 /* Debug */,
-				7159519F298B711A0001F5E4 /* Release */,
+				71B621D6298C55A000736A6B /* Debug */,
+				71B621D7298C55A000736A6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
