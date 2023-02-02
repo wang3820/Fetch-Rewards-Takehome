@@ -2,7 +2,7 @@
 //  Item.swift
 //  Fetch Rewards Take Home Assignment
 //
-//  Created by Ray on 2/1/23.
+//  Created by Tong Wang on 2/1/23.
 //
 
 import Foundation
@@ -26,6 +26,8 @@ extension Item {
         
         id = try values.decode(Int.self, forKey: .id)
         listId = try values.decode(Int.self, forKey: .listId)
+        
+        // If the name field is null in JSON, the name field will be parsed as empty string
         name = try values.decodeIfPresent(String.self, forKey: .name) ?? ""
     }
 }

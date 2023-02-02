@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Fetch Rewards Take Home Assignment
 //
-//  Created by Ray on 2/1/23.
+//  Created by Tong Wang on 2/1/23.
 //
 
 import SwiftUI
