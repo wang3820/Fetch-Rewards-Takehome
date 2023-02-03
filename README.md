@@ -27,7 +27,8 @@ The primary functions of the ContentView are
 3. For display of the items, I decided to make a list of NavigationLinks named after and sorted by each unique listId that navigates to a list of items with that listId, sorted by names. This way the app looks a lot cleaner than a big list of items. 
 
 ## Results
-
+[ListIds](https://github.com/wang3820/Fetch-Rewards-Takehome/blob/main/Images/ListID.png) \
+[Items in listId 1](https://github.com/wang3820/Fetch-Rewards-Takehome/blob/main/Images/Items.png)
 ## Demo
 
 ## Testing
