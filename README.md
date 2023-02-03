@@ -32,5 +32,11 @@ The primary functions of the ContentView are
 ## Demo
 
 ## Testing
+Three unit tests were created to verify that
+ - Items are grouped by listId
+ - Items are sorted first by listId then by name
+ - Items are filter (Items with blank names do not exist)
+
+[Test Results](https://github.com/wang3820/Fetch-Rewards-Takehome/blob/main/Images/test_result.png)
 
 ## Area of Improvements
