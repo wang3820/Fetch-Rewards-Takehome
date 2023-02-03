@@ -1,3 +1,15 @@
 # Fetch Rewards Takehome Assignmet for iOS Software Interns
 
-1. 
+## Objective
+
+## Components
+
+## Design decisions
+
+## Results
+
+## Demo
+
+## Testing
+
+## Area of Improvements
