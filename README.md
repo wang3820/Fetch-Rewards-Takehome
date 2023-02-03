@@ -30,6 +30,7 @@ The primary functions of the ContentView are
 [ListIds](https://github.com/wang3820/Fetch-Rewards-Takehome/blob/main/Images/ListID.png) \
 [Items in listId 1](https://github.com/wang3820/Fetch-Rewards-Takehome/blob/main/Images/Items.png)
 ## Demo
+Please go to [this youtube link](https://youtube.com/shorts/ueSfff2RFr0?feature=share) to view a demo on the app
 
 ## Testing
 Three unit tests were created to verify that 
