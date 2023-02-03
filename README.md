@@ -32,11 +32,15 @@ The primary functions of the ContentView are
 ## Demo
 
 ## Testing
-Three unit tests were created to verify that
+Three unit tests were created to verify that 
  - Items are grouped by listId
  - Items are sorted first by listId then by name
  - Items are filter (Items with blank names do not exist)
 
-[Test Results](https://github.com/wang3820/Fetch-Rewards-Takehome/blob/main/Images/test_result.png)
+All three tests were passed ([Test Results](https://github.com/wang3820/Fetch-Rewards-Takehome/blob/main/Images/test_result.png))
+
 
 ## Area of Improvements
+1. There could be more unit tests. For example on the json decoding and url session
+2. There could be UI tests to test if the app behaves correctly
+3. A logo can be added to the app and the UI could use more design effort
